@@ -1,5 +1,27 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Load Board
+
+A single page app that lets users view a list of loads and filter or sort them.
+
+## Set up
+
+After you clone this repo, you'll need to install dependencies before you can run the project:
+
+```
+$ git clone https://github.com/hairarrow/mastery-fe-challenge.git
+$ cd mastery-fe-challenge
+$ yarn
+$ yarn start
+```
+
+## Notes
+
+-   I tried to as much as I could in under an hour
+-   I used typescript to add strongly typed features to the code. I was able to quickly generate types using JSON-to-typescript, and this enabled some great tooling in vscode that boosted my productivity
+-   Another decision I made considering the time was to use [Antd](https://ant.design) since their well-built components provide significant user features that already deliver great UX and accessibility.
+-   You'll find the models and reducer in `src/Context.ts`
+
 ## Available Scripts
 
 In the project directory, you can run:
